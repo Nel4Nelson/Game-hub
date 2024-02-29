@@ -24,7 +24,7 @@ const App = () => {
             <GenreList />
           </GridItem>
         </Show>
-        <GridItem area="main">
+        <GridItem area="main" paddingX={5}>
           <GameGrid />
         </GridItem>
       </Grid>
